@@ -33,6 +33,7 @@ export function App() {
       <div className="content" id="mainContent">
         <Switch>
           <Route exact path="/" component={HomePage} />
+          <Route exact path="/testimonial" component={HomePage} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>
