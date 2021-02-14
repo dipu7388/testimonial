@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap.scss";
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 24px;
+}
+
+.copy{
+    p{
+        text-align: center;
+    }
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 0;
+}
